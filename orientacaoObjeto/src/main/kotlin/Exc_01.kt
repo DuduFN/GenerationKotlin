@@ -15,14 +15,6 @@ fun main() {
 
     println("$nome, $idade")
 
-
-    println("Digite quanto tempo o $nome é cliente da empresa: ")
-    val tempo = readLine()!!.toDouble()
-    cli.tempoCliente = tempo
-    cli.bonus(tempo)
-
-    println("Digite o pagamento está em dia: ")
-    val pgmnt = readLine()!!
-    cli.pagmntEmDia = pgmnt
-    cli.pagmntCli(pgmnt)
+    cli.pagmntCli("")
+    cli.bonus(0.0)
 }
