@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DistribuidoraTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-10T17:38:15" hostname="DESKTOP-M4LB2MI" time="0.045">
+  <properties/>
+  <testcase name="addClientes()" classname="DistribuidoraTest" time="0.04"/>
+  <testcase name="removeCliente()" classname="DistribuidoraTest" time="0.003"/>
+  <system-out><![CDATA[ [] cadastrados no sistema
+ [, , , , 0 ] cadastrados no sistema
+ [] cadastrados no sistema
+ [, , , , 0 ] cadastrados no sistema
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
